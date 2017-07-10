@@ -17,6 +17,10 @@ class ViewController: UIViewController {
         print("Helloooooo")
     }
 
+    @IBAction func clickButton(_ sender: Any) {
+        print("Button clicked")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
